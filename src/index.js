@@ -7,7 +7,6 @@ import { ThemeProvider } from 'styled-components'
 import { AppContainer } from 'react-hot-loader'
 
 import App from './components/App'
-import history from './history'
 import store from './redux/store'
 import theme from './theme'
 

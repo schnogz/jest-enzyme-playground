@@ -14,4 +14,4 @@ module.exports = {
 		historyApiFallback: true,
 		hot: true
 	}
-}
+};

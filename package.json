@@ -10,7 +10,6 @@
 	"scripts": {
 		"build": "webpack -p",
 		"dev": "webpack-dev-server --config webpack.dev.config.js",
-		"pretest": "standard",
 		"test": "jest"
 	},
 	"dependencies": {

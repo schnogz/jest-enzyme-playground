@@ -31,7 +31,7 @@ module.exports = {
 		'^@templates(.*)': '<rootDir>/src/components/templates$1'
 	},
 	setupFiles: [
-		'./setup.js'
+		'./jest.setup.js'
 	],
 	snapshotSerializers: [
 		'enzyme-to-json/serializer'
