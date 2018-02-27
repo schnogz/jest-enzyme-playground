@@ -7,20 +7,8 @@ import { ThemeProvider } from 'styled-components'
 import { AppContainer } from 'react-hot-loader'
 
 import App from './components/App'
-import store from './redux/store'
 import theme from './theme'
 
-ReactDOM.render(
-  <AppContainer>
-    <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <ConnectedRouter history={history}>
-          <Route component={App} />
-        </ConnectedRouter>
-      </ThemeProvider>
-    </Provider>
-  </AppContainer>,
-  document.getElementById('app')
-);
+ReactDOM.render(<App />, document.getElementById('app'));
 
 if (module.hot) module.hot.accept();
