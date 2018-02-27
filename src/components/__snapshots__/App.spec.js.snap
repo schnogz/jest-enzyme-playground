@@ -3,5 +3,9 @@
 exports[`App Component renders well 1`] = `
 <styled.main>
   <Header />
+  <Post
+    excerpt="Learn how to unit test today!"
+    title="Unit Testing 101"
+  />
 </styled.main>
 `;
