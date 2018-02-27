@@ -1,0 +1,23 @@
+{
+	"name": "jest-enzyme-playground",
+	"version": "0.0.1",
+	"description": "Learning to unit test React apps with Jest and Enzyme.",
+	"author": "Andrew Schneider",
+	"repository": "git@github.com:schnogz/jest-enzyme-playground.git",
+	"license": "MIT",
+	"private": false,
+	"main": "index.js",
+	"dependencies": {
+		"enzyme": "^3.3.0",
+		"jest": "^22.4.2",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-scripts": "1.1.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "jest",
+		"eject": "react-scripts eject"
+	}
+}
