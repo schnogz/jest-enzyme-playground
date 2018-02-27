@@ -7,7 +7,7 @@ exports[`Posts component using __mocks__ tree renders correctly 1`] = `
   >
     Hot /r/bitcoin Posts
   </HoverLink>
-  <ul />
+  <styled.div />
 </styled.section>
 `;
 
@@ -18,6 +18,6 @@ exports[`Posts component using inline mock tree renders correctly 1`] = `
   >
     Hot /r/bitcoin Posts
   </HoverLink>
-  <ul />
+  <styled.div />
 </styled.section>
 `;

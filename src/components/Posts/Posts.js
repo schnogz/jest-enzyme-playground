@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import HoverLink from './../HoverLink/HoverLink';
 import Api from './../../services/api';
+import Post from './../Post/Post';
 
 const Wrapper = styled.section`
   margin: .4em;
@@ -9,10 +10,9 @@ const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-const Title = styled.a`
-  font-size: 2em;
-  color: palevioletred;
-  text-decoration: none;
+const List = styled.div`
+	width:100%;
+	height:100%;
 `;
 
 class Posts extends React.Component {
@@ -37,11 +37,11 @@ class Posts extends React.Component {
 		return (
 			<Wrapper>
 				<HoverLink page='https://www.reddit.com/r/bitcoin/new.json?sort=top'>Hot /r/bitcoin Posts</HoverLink>
-				<ul>
+				<List>
 					{this.state.posts.map(post =>
-						<li key={post.id}>{post.title}</li>
+						<Post key={post.id} post={post}/>
 					)}
-				</ul>
+				</List>
 			</Wrapper>
 		);
 	}

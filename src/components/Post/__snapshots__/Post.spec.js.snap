@@ -1,26 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Post component tree renders correctly with title 1`] = `
-<styled.section>
-  <styled.h2>
-    Unit Testing 101
-  </styled.h2>
-  <p>
-    Learn how to unit test today!
-  </p>
-</styled.section>
-`;
-
-exports[`Post component tree renders correctly with title and link 1`] = `
-<styled.section>
-  <styled.h2>
-    <Link
-      replace={false}
-      to="/post/undefined"
-    >
-      Unit Testing 101
-    </Link>
-  </styled.h2>
-  <p />
-</styled.section>
+<styled.div>
+  <styled.a
+    href="fake"
+    target="_blank"
+  >
+    Test
+  </styled.a>
+</styled.div>
 `;

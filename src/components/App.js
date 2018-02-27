@@ -12,7 +12,6 @@ class App extends PureComponent {
     return <Main>
 			<Header></Header>
 			<Posts></Posts>
-			<Post title='Unit Testing 101' excerpt='Learn how to unit test today!'/>
     </Main>
   }
 }
