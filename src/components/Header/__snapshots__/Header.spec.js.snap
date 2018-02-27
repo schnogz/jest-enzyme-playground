@@ -2,8 +2,10 @@
 
 exports[`Header component renders correctly 1`] = `
 <styled.section>
-  <styled.h1>
+  <HoverLink
+    page="https://www.github.com/schnogz/jest-enzyme-playground.git"
+  >
     Jest Enzyme Test Playground
-  </styled.h1>
+  </HoverLink>
 </styled.section>
 `;

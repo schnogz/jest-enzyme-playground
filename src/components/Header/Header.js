@@ -1,21 +1,17 @@
 import React from 'react';
+import HoverLink from './../HoverLink/HoverLink';
 import styled from 'styled-components';
-
-const Title = styled.h1`
-  font-size: 2em;
-  text-align: center;
-  color: palevioletred;
-`;
 
 const Wrapper = styled.section`
   margin: .4em;
-  padding: .2em;
+  padding: 2em;
   background: papayawhip;
+  text-align: center;
 `;
 
 const Header = () => (
 	<Wrapper>
-		<Title>Jest Enzyme Test Playground</Title>
+		<HoverLink page="https://www.github.com/schnogz/jest-enzyme-playground.git">Jest Enzyme Test Playground</HoverLink>
 	</Wrapper>
 );
 

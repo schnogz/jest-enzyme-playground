@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HoverLink component should render correctly 1`] = `
+<styled.a
+  href="http://www.google.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_blank"
+>
+  Google
+</styled.a>
+`;
