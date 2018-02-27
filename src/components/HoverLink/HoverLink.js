@@ -21,12 +21,10 @@ export default class HoverLink extends React.Component {
 
 	_onMouseEnter() {
 		this.setState({hovered: true});
-		console.info('hovered:', this.state.hovered);
 	}
 
 	_onMouseLeave() {
 		this.setState({hovered: false});
-		console.info('hovered:', this.state.hovered);
 	}
 
 	render() {

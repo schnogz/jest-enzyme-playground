@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts component using __mocks__ tree renders correctly 1`] = `
+<styled.section>
+  <HoverLink
+    page="https://www.reddit.com/r/bitcoin/new.json?sort=top"
+  >
+    Hot /r/bitcoin Posts
+  </HoverLink>
+  <ul />
+</styled.section>
+`;
+
+exports[`Posts component using inline mock tree renders correctly 1`] = `
+<styled.section>
+  <HoverLink
+    page="https://www.reddit.com/r/bitcoin/new.json?sort=top"
+  >
+    Hot /r/bitcoin Posts
+  </HoverLink>
+  <ul />
+</styled.section>
+`;
