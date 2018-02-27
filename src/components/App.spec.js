@@ -1,17 +1,11 @@
-// import React from 'react'
-// import { shallow } from 'enzyme'
-//
-// import App from './App'
-//
-// describe('<App />', () => {
-//   it('renders well', () => {
-//     const wrapper = shallow(<App />)
-//     expect(wrapper).toMatchSnapshot()
-//   })
-// })
+import React from 'react'
+import { shallow } from 'enzyme'
 
-describe('<App />', () => {
-	it('should pass', () => {
-		expect(true).toBe(true);
-	})
+import App from './App'
+
+describe('App Component', () => {
+  it('renders well', () => {
+    const tree = shallow(<App />);
+    expect(tree).toMatchSnapshot()
+  })
 });
