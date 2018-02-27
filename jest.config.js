@@ -1,15 +1,11 @@
 const threshold = 90;
 
 module.exports = {
+	automock: false,
 	collectCoverageFrom: [
 		'src/**/*.js'
 	],
-	coveragePathIgnorePatterns: [
-		'index.js$',
-		'theme.js$',
-		'redux/enhancers/middlewares.js$',
-		'redux/store.js$'
-	],
+	coveragePathIgnorePatterns: [],
 	coverageThreshold: {
 		global: {
 			statements: threshold,
